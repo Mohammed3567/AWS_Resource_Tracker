@@ -16,6 +16,5 @@ chmod 700 resource_tracker.sh
 ## Cron Setup (runs daily — adjust time per UTC vs IST)
 \`\`\`bash
 crontab -e
-# Add this line:
 00 10 * * * /home/ubuntu/resource_tracker.sh >> /home/ubuntu/resource_report.log 2>&1
-\`\`\`" > README.md
+\`\`\`
